@@ -2,8 +2,7 @@
 YTDownloader is my simple way to download mp3 audio from YT. There are many tools online to do it but they're full of ads and they're very slow so I decided to create my own tool that use `ytdlp` for downloading the audio and `customtinker` for the GUI.
 
 ## How to use:
-> Only tested on Linux!
-
+### Linux (Tested on Arch)
 Clone the repo from github:
 ```bash
 git clone https://github.com/Kerlooo/YTDownloader
@@ -14,6 +13,23 @@ Create and activate the venv:
 ```bash
 python -m venv myenv
 source myenv/bin/activate
+pip install -r requirements.txt
+```
+
+Run the script:
+`python app.py` or `python3 app.py`
+
+### Windows (Tested on 11)
+Clone the repo from github:
+```bash
+git clone https://github.com/Kerlooo/YTDownloader
+cd YTDownloader
+```
+
+Create and activate the venv:
+```bash
+python -m venv myenv
+.\myenv\bin\activate
 pip install -r requirements.txt
 ```
 
