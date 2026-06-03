@@ -1,4 +1,4 @@
 {
-    "output_folder" : ".",
-    "default_quality" : 192
+  "output_folder": ".",
+  "default_quality": "192"
 }
