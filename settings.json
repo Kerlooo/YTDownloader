@@ -1,4 +1,5 @@
 {
-  "output_folder": ".",
-  "default_quality": "192"
+  "output_folder": "downloads",
+  "default_quality": "192",
+  "language": "en"
 }
