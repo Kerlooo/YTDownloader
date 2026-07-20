@@ -12,6 +12,6 @@ venv/
 *.part
 
 mtp:/
-
+.cache
 .DS_Store
 Thumbs.db
